@@ -1,19 +1,24 @@
 {
-  "name": "backend-server",
-  "version": "1.0.0",
-  "description": "Servidor backend para Angular",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "DominHect",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3",
-    "mongoose": "^5.0.11"
-  },
-  "devDependencies": {
-    "nodemon": "^1.17.2"
-  }
+    "name": "backend-server",
+    "version": "1.0.0",
+    "description": "Servidor backend del curso de Angular Avanzado",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Fernando Herrera",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^1.0.3",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "jsonwebtoken": "^8.2.0",
+        "mongoose": "^4.13.5",
+        "mongoose-unique-validator": "^1.0.6"
+    },
+    "devDependencies": {
+        "nodemon": "^1.12.1"
+    }
 }
